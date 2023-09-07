@@ -116,7 +116,7 @@ public:
 			delete[] email;
 		}
 		email = new char[strlen(buff) + 1];	
-		strcpy_s(email, strlen(buff) + 1, buff);	
+		strcpy_s(email, strlen(buff) + 1, buff);		
 	}	
 	void SetAge()		
 	{
